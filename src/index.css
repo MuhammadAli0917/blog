@@ -37,4 +37,8 @@ code {
   margin-right: 10px;
 }
 
+.active-link {
+  color: red; /* Change this to the color you want for active links */
+}
+
 
