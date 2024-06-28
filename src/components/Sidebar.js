@@ -5,7 +5,7 @@ export const Sidebar = () => {
     const navigate = useNavigate()
 
     return (
-        <div className="w-[25%] h-full p-2 flex-col gap-2">
+        <div className="w-[25%] h-full p-2 flex-col gap-2 hidden sm:flex">
             <div className="bg-[#121212] text-white gap-10 h-full rounded flex flex-col">
                 <div onClick={() => navigate('/')} className="pl-8 mt-10 text-3xl cursor-pointer text-blue-500">
                     <p className="font-bold" >thetalaba's blog</p>
